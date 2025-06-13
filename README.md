@@ -53,3 +53,20 @@ O servidor expõe um único endpoint para a comunicação via WebSocket:
 * `{game_id}`: Um identificador único para cada partida. O frontend deve gerar ou permitir que o usuário insira este ID para que os jogadores possam se encontrar na mesma "sala".
 * `{client_id}`: Um identificador único para cada cliente/jogador, para que o backend saiba quem enviou qual mensagem.
 
+### 3. Frotend
+
+```bash
+cd frontend
+```
+
+#### a. Instalar as dependências
+
+```bash
+npm install
+```
+
+#### b. Levantar a aplicação
+
+```bash
+npm run dev
+```
