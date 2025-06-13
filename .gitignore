@@ -1,0 +1,29 @@
+# --- Backend ---
+
+/backend/venv/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- General ---
+
+.env
+.env.*
+!.env.example
+
+.vscode/
+.idea/
+
+*.log
+
+.DS_Store
+
+Thumbs.db
+ehthumbs.db
